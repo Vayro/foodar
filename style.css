@@ -1,9 +1,17 @@
-@charset "utf-8";
-/* CSS Document */
+
 
 body{
 	
-	background: black;
+	background: url('images/bg.jpeg');
+		max-width: 1920px;
+	margin: auto;
+	background-size: cover;
+	 background-repeat: no-repeat;
+	  background-position: center;
+		  background-attachment: fixed;
+	padding-left: 5%;
+	padding-right: 5%;
+	
 }
 div{
 	
@@ -19,7 +27,7 @@ p {
 .about-how {
 	text-align: center;
 	color: red;
-	
+	padding-bottom: 100px;
 	
 }
 
@@ -45,23 +53,19 @@ input, label{
 }
 
 
-input {
-	
-	
-	
-
-}
 
 
 
 .form{
 	margin: auto;
 	width: 500px;
+	margin-bottom: 750px;
 	
 }
 
 
 .container{
+	background: white;
 	overflow: auto;
 	width: 100%;
 	border: 1px solid;
@@ -105,9 +109,10 @@ input {
 
 footer
 {
-	background: linear-gradient(grey, black);
+	background: black;
 	position: absolute;
     bottom: 0;
+	
 	
 }
 
@@ -117,6 +122,20 @@ footer table tr td{
 	border: none;
 }
 
+.nofloat
+{
+	background: black;
+		position:static;
+	bottom:auto;
+
+	
+	
+}
+
+
+
+
+
 footer ul{
 	
 	
@@ -124,11 +143,18 @@ footer ul{
 }
 
  #copyright{
-	 
-  color: white;
+	 background: black;
+  color: gold;
 text-align: center;
+	 padding: 1%;
 
 	
+}
+
+footer li {
+	
+	color: black;
+	padding: 5px;
 }
 
 table, tr, td{
@@ -147,17 +173,15 @@ header{
 	text-align: left;
     color: red;
 	font-size: 1.4em;
+	padding: 1%;
+	background-color: black;
 }
 
-header, div{
+header div{
+	background-color: black;
 	
-	swidth: 10%;
 }
 
-.signin{
-	text-align: right;
-	font-size: 1em;
-}
 
 header td{
 	
@@ -189,3 +213,107 @@ a:hover { color: purple; }
   flex-grow: 1;
   max-width: 100%;
   }
+
+#ads {
+	background: none;
+	
+	
+	
+}
+
+#ads:after{
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.hnavbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.hnavbar li {
+  float: right;
+}
+
+.hnavbar li a {
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.hnavbar li a:hover {
+  background-color: #111;
+	
+}
+
+
+
+
+
+
+
+
+
+header img{
+	width: 100%;
+	max-width: 300px;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+.hide {
+  display: none;
+}
+
+.coupon:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+
+form table{
+	background: black;
+	
+}
+
+form input{
+	width: 90%;
+	padding: 10px;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+
+
+

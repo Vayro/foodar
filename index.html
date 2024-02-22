@@ -8,14 +8,50 @@
 </head>
 
 <body>
-	<div> 
-	<ads>
-	<table><tr><td>ADVERTISEMENT</td></tr></table>
-	</ads></div>
+
+		
+		
+	<div id="ads" style="visibility:hidden;">
+		
+		
+
+		
+	<table style="border: none; width: 50%; margin: auto; max-height: 250px;"><tr><td style="text-align: center; font-size: 1.5em; background: antiquewhite; border: none;"><a href="" style="display:block;"><br> SIGN UP and REQUEST a meal today!</a> <br></td><td style="border: none; padding-bottom: 5%; color: red;"><span id="close" onclick="this.parentNode.parentNode.remove(); return false;">(X)</span></td></tr></table>
+	</div>
+	
+	
+	
+	
+	
 		<hr> 
-	<header>
+	
+	
+	 <header>
 		<div>
-		<table><tr><td><div >Foodar</div></td><td></td><td><div class="signin">Sign in | register | Request</div></td></tr></table>
+			<table><tr><td><div><a href="index.html"><img src="images/logo.png"></a></div></td>
+				
+				<td></td>
+				
+				
+				
+				
+				
+			  <td>
+					
+					<div class="hnavbar">
+						
+						
+						<ul>
+						
+							<li><a href="#">Sign in</a> </li><li><a href="register.html"> Register</a></li> <li><a href="request.html">Request</a></li><li><a href="index.html">Home</a> </li>
+					
+					
+					</ul>
+					
+					
+					
+					</div>
+					</td></tr></table>
 			
 			
 		
@@ -24,13 +60,13 @@
 	
 	
 	
-	<hr>
+	
 	
 	
 <div class="container2">
-	<div style="padding: 2%;">	<p>	<img src="images/kamayan.jpg" style="margin: auto; width: 100%;"> 
+	<div style="padding: 1%; background-color: black;">	<p>	<img src="images/kamayan2.jpg" style="margin: auto; width: 100%;"> 
 		
-		<div class="centered" style="font-size: 50px; text-shadow: 1px 1px 5px black;">Try a new meal today!</div>
+		<div class="centered" style="font-size: 50px; text-shadow: 2px 2px 5px black; background-color: rgba(208,23,27,.50); color: white;"><strong>Try a new meal today!</strong></div>
 		
 	</p>
 		
@@ -44,48 +80,76 @@
 	<p>
 	
 
-<div>
-<h2>Featured Restaurants</h2></div><div>
+<div style="background: black;">
+<img src="images/featured.png" style="max-height: 100px; display: block; margin: auto; padding: 1%"></div><div>
 <div class="row" style="text-align: center; margin-left: 10%; margin-right: 10%;">
 
 	<div class="col"><h3>Salo Salo</h3>
 	<p>
-	<img src="images/ss.jpg" style="width: 75%; max-width: 250px;"></p>
+		<div class="coupon">
+			<img src="images/ss.jpg" style="width: 75%; max-width: 250px;"></p></div><div class="hide"><strong>FREE DELIVERY! (featured restaurants only)</strong> </div>
 	<p>Family Owned Filipino Cuisine! Order today and recieve 15% your total meal.</p>
 	
 	</div>
 	
 	<div class="col"><h3>Toto's Lechon</h3><p>
-	<img src="images/tt.jpg" style="width: 75%; max-width: 250px;"></p><p>Pork-based cuisine! Toto's has servedthe Southern California area for over 20 years!</p></div>
+	<div class="coupon"><img src="images/tt.jpg" style="width: 75%; max-width: 250px;"></p></div><div class="hide"><strong>FREE DELIVERY! (featured restaurants only)</strong> </div><p>Pork-based cuisine! Toto's has served the Southern California area for over 20 years!</p></div>
 	<div class="col"><h3>Tony's Barbecue</h3><p>
-	<img src="images/bbq.jpg" style="width: 75%; max-width: 250px;"></p><p>Filipino Barbeque. Just for you, we'll knock off 10% to make your wallet feel good too.</p></div>
+<div class="coupon">	<img src="images/bbq.jpg" style="width: 75%; max-width: 250px;"></p></div><div class="hide"><strong>FREE DELIVERY! (featured restaurants only)</strong> </div><p>Filipino Barbeque. Just for you, we'll knock off 10% to make your wallet feel good too.</p></div>
 
 </div></div>
 	
-	<hr>
-	<div><div style="text-align: center;">
+	
+	<div><div style="text-align: center; padding: 1%;">
 	<h1>Find a driver near you!</h1>
 	
-	Enter your zip code below to find a driver near you</p>
+	Enter your zip code below to find a driver near you
 	
-	</div><p></p><div>
-	<form>
+	<p></p><div>
+	<form style="display: block; ">
  
-
+		<table style="max-width: 400px; border: none; margin: auto; padding: 0;"><tr ><td ><input id="zip" class="zipcode" type="text" value="00000" required pattern="\d{5,5}(-\d{4,4})?" maxlength="10"></td> <td> <input id="zipCheck" type="submit" text="submit" value="Go" style="margin: 10px auto 10px auto; "></td></tr></table>
  
-  <input id="zip" class="zipcode" type="text" value="00000-0000" required pattern="\d{5,5}(-\d{4,4})?" maxlength="10">
+  
  
-  <input id="zipCheck" type="submit" text="submit" style="margin: 10px auto 10px auto ">
+ 
 </form>
 	
-	<div id="cityAvail" style="text-align: center">...</div><br>
+	<div id="cityAvail" style="text-align: center"></div><br>
 	
-	</div>
-</div>
+	</div></div></div>
+
 
 <hr>
+	
+	
+<footer class="nofloat">
+  <table><tr><td>
+<ul class="footnav">
+	
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="register.html">Register</a></li>
+	</ul>
+	</td><td></td><td></td>
+	
+
+	
+</tr>
+
+	
+	</table>
+	
+	 <div id="copyright">	&copy 2023 Lawrence Biteranta | Revature LLC</div>
+
+
+
+	
+</footer>
 
 	<script src="index.js"></script>
+
+
 </body>
 
 
